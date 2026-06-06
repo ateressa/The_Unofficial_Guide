@@ -1,67 +1,155 @@
+"""
+Answer generation for The Unofficial Guide.
+
+Two LLM responsibilities, both on Groq (Llama-3.3-70b):
+
+  condense_query(history, question)  - rewrite a follow-up into a standalone
+                                       search query so multi-turn retrieval works
+  generate_response(query, chunks, history)
+                                     - write a grounded answer from the retrieved
+                                       excerpts + conversation history
+
+Grounding is the whole point: the model must answer ONLY from the retrieved
+student reviews / syllabus excerpts, synthesize across opinions, and admit when
+the excerpts don't cover the question rather than guessing.
+"""
+
 from groq import Groq
 from config import GROQ_API_KEY, LLM_MODEL
 
 _client = Groq(api_key=GROQ_API_KEY)
 
+# How many prior chat messages to carry for conversational context.
+_HISTORY_TURNS = 6
+
 _SYSTEM_PROMPT = (
-    "You are a board game rules reference. The retrieved rule excerpts below are your only permitted source of information.\n\n"
-    "Do not use your training knowledge of board games for any purpose: not to fill gaps in the retrieved text, "
-    "not to add context, not to correct the excerpts, and not to infer answers from partial information. "
-    "Answer only what the excerpts explicitly state. If they do not contain a clear answer, say so.\n\n"
-    "When you answer, state which game each answer comes from. "
-    "If the question names a specific game, only use chunks from that game. "
-    "If no game is specified, answer for every game represented in the retrieved chunks, labeled by game name."
+    "You are The Unofficial Guide, an assistant that answers questions about ASU "
+    "Computer Science courses and professors using ONLY the real student reviews "
+    "and official syllabus excerpts provided to you in each message.\n\n"
+    "GROUNDING RULES — follow these strictly:\n"
+    "1. Use ONLY the provided excerpts. Never use prior knowledge about ASU, its "
+    "courses, or its professors. Never invent professor names, ratings, grades, "
+    "course details, or quotes.\n"
+    "2. If the excerpts don't contain enough information to answer, say so plainly "
+    "(e.g. \"I don't have student feedback on that\") instead of guessing. A "
+    "confident wrong answer is worse than an honest \"I don't know.\"\n"
+    "3. Most excerpts are subjective student opinions. Synthesize across them: "
+    "report the general consensus and call out notable disagreement or mixed "
+    "opinions — don't cherry-pick a single review.\n"
+    "4. Attribute claims to their source — e.g. \"students on Rate My Professors "
+    "say…\", \"a Reddit commenter notes…\", \"the syllabus states…\" — and cite the "
+    "numeric ratings (quality/difficulty out of 5) when they're given.\n"
+    "5. Distinguish opinion (reviews) from fact (syllabus). Don't present one "
+    "student's experience as universal truth.\n"
+    "6. Be concise and direct: answer the question first, then briefly support it."
 )
+
+_CONDENSE_PROMPT = (
+    "Given the conversation so far and a follow-up message, rewrite the follow-up "
+    "as a standalone search query that makes sense without the conversation. "
+    "Resolve pronouns and references (e.g. 'is it hard?' after discussing CSE 240 "
+    "becomes 'Is CSE 240 hard?'). Keep professor and course names. "
+    "Output ONLY the rewritten query, nothing else."
+)
+
+
+def _recent_history(history):
+    """Normalize Gradio history to the last few turns as clean {role, content}
+    dicts. Gradio's message format carries extra keys (e.g. 'metadata',
+    'options') that the Groq/OpenAI chat API rejects, so we strip to the two
+    fields the API accepts."""
+    if not history:
+        return []
+    msgs = [
+        {"role": m["role"], "content": str(m["content"])}
+        for m in history
+        if m.get("role") in ("user", "assistant") and m.get("content")
+    ]
+    return msgs[-_HISTORY_TURNS:]
+
+
+def condense_query(history, question):
+    """Rewrite a follow-up question into a standalone retrieval query using the
+    conversation context. Returns the original question when there's no history."""
+    history = _recent_history(history)
+    if not history:
+        return question
+
+    convo = "\n".join(f"{m['role']}: {m['content']}" for m in history)
+    try:
+        resp = _client.chat.completions.create(
+            model=LLM_MODEL,
+            temperature=0,
+            messages=[
+                {"role": "system", "content": _CONDENSE_PROMPT},
+                {"role": "user", "content": f"Conversation:\n{convo}\n\nFollow-up: {question}"},
+            ],
+        )
+        rewritten = resp.choices[0].message.content.strip()
+        return rewritten or question
+    except Exception:
+        # If the rewrite fails for any reason, fall back to the raw question.
+        return question
+
+
+def _source_label(m):
+    """Human-readable attribution line built from a chunk's metadata."""
+    src = m.get("source")
+    if src == "rmp":
+        parts = [f"Rate My Professors review of {m.get('professor') or 'a professor'}"]
+        if m.get("course"):
+            parts.append(str(m["course"]))
+        extras = []
+        for key, fmt in (("quality", "quality {}/5"), ("difficulty", "difficulty {}/5"),
+                         ("grade", "grade {}"), ("would_take_again", "would take again: {}"),
+                         ("date", "{}")):
+            if m.get(key) not in ("", None):
+                extras.append(fmt.format(m[key]))
+        label = ", ".join(parts)
+        return f"{label} ({'; '.join(extras)})" if extras else label
+    if src == "reddit":
+        label = "Reddit r/ASU"
+        if m.get("course"):
+            label += f" — {m['course']}"
+        extras = []
+        if m.get("score") not in ("", None):
+            extras.append(f"score {m['score']}")
+        if m.get("date"):
+            extras.append(str(m["date"]))
+        return f"{label} ({', '.join(extras)})" if extras else label
+    if src == "pdf":
+        return f"{m.get('course', '')} official syllabus".strip()
+    return str(src or "source")
 
 
 def _format_context(chunks):
     parts = []
-    for i, chunk in enumerate(chunks, start=1):
-        header = f"Chunk {i} | Game: {chunk['game']} | Distance: {chunk['distance']:.2f}"
-        parts.append(f"{header}\n{chunk['text']}")
+    for i, c in enumerate(chunks, start=1):
+        parts.append(f"[{i}] {_source_label(c['metadata'])}\n{c['text']}")
     return "\n\n---\n\n".join(parts)
 
 
-def generate_response(query, retrieved_chunks):
-    """
-    Generate a grounded answer from retrieved rule chunks.
-
-    TODO — Milestone 3:
-
-    `retrieved_chunks` is the list returned by retrieve(). Each item is a dict:
-      - "text"     : the chunk text
-      - "game"     : the game name
-      - "distance" : similarity score (you can use this to filter weak matches)
-
-    Before writing code, talk through these with your group:
-      - How will you format the chunks into a context block for the prompt?
-      - What instructions will stop the model from answering beyond what the
-        rules say? (Grounding is the whole point — a confident wrong answer
-        is worse than an honest "I don't know.")
-      - How will you surface which game each answer comes from?
-
-    Your response should:
-      1. Answer using only the retrieved context — not the model's general knowledge
-      2. Make clear which game the answer comes from
-      3. Say so clearly when the answer isn't in the loaded rules
-
-    Return the response as a plain string.
-    """
+def generate_response(query, retrieved_chunks, history=None):
+    """Generate a grounded answer from retrieved chunks + conversation history."""
     if not retrieved_chunks:
         return (
-            "I couldn't find anything relevant in the loaded rule books. "
-            "Try rephrasing your question — or check that your ingestion pipeline is working."
+            "I don't have any student reviews or syllabus excerpts that cover that. "
+            "Try naming a specific ASU CS course (e.g. CSE 240) or professor."
         )
 
     context = _format_context(retrieved_chunks)
-    user_message = f"Retrieved rule excerpts:\n\n{context}\n\nQuestion: {query}"
+    user_message = (
+        f"Here are the retrieved excerpts:\n\n{context}\n\n"
+        f"Using only these excerpts, answer the question: {query}"
+    )
+
+    messages = [{"role": "system", "content": _SYSTEM_PROMPT}]
+    messages.extend(_recent_history(history))
+    messages.append({"role": "user", "content": user_message})
 
     response = _client.chat.completions.create(
         model=LLM_MODEL,
-        messages=[
-            {"role": "system", "content": _SYSTEM_PROMPT},
-            {"role": "user", "content": user_message},
-        ],
+        temperature=0.2,
+        messages=messages,
     )
-
     return response.choices[0].message.content

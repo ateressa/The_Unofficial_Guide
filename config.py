@@ -11,11 +11,11 @@ LLM_MODEL = "llama-3.3-70b-versatile"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
 # --- Vector store ---
-CHROMA_COLLECTION = "rulesbot"
+CHROMA_COLLECTION = "unofficial_guide"
 CHROMA_PATH = "./chroma_db"
 
 # --- Retrieval ---
-N_RESULTS = 3
+N_RESULTS = 5
 
 # --- Documents ---
-DOCS_PATH = "./docs"
+DATA_PATH = "./data"

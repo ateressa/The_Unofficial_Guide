@@ -1,0 +1,543 @@
+3.4
+/ 5
+Jump To Ratings Down Arrow
+Overall Quality Based on 44 ratings
+Chris Bryan
+Professor in the Computer Science department at Arizona State University
+63%
+Would take again
+3.5
+Level of Difficulty
+
+Rate
+Arrow Icon
+Compare
+I'm Professor Bryan
+Rating Distribution
+Awesome 5
+
+17
+Great 4
+
+10
+Good 3
+
+4
+OK 2
+
+4
+Awful 1
+
+10
+Similar Professors
+5.00
+Hua Wei
+5.00
+Michael Tompkins
+44 Student Ratings
+All courses
+CSE578
+May 4th, 2026
+Quality
+4.0
+Difficulty
+3.0
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A-
+Textbook: N/A
+Class lectures are kinda fun. The class isn't too difficult as long as you start early.
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+CSE578
+Jan 15th, 2026
+Quality
+3.0
+Difficulty
+3.0
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A-
+Textbook: N/A
+Not bad, makes a big deal about not using Gen AI but assignments are still doable and tests aren't extraordinarily hard or anything,
+Respected
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+CSE578
+Jun 28th, 2025
+Quality
+5.0
+Difficulty
+3.0
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+I took his class in Fall 2024; the projects required a lot of time and effort but the tests were really easy and had questions straight outta the slides. Chris gives you a lot of freedom in how you shape your project and is overall a very chill guy.
+Inspirational
+Lots of homework
+Accessible outside class
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+CSE578
+May 14th, 2025
+Quality
+5.0
+Difficulty
+3.0
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+Getting full score in assignments is easy with ext credits available, though it requires good time management, it's worth the effort as it boosts your grades Grading is lenient as long as you meet the requirements Many exam que come from the practice que Classes are theoretical but fun Exam weight is low so ext credit can compensate for a bad exam
+EXTRA CREDIT
+Group projects
+Clear grading criteria
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+CSE578
+Dec 11th, 2024
+Quality
+5.0
+Difficulty
+2.0
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+course is very well-structured. lectures are engaging. assignments are challenging but super fun. exams are easy. there's a semester-long group project. lots of opportunities to earn extra credit. one of the best classes i've had at ASU. just don't be one of those morons who cheat and get reported to the AIO.
+EXTRA CREDIT
+Clear grading criteria
+Respected
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+CSE578
+Nov 7th, 2024
+Quality
+3.0
+Difficulty
+5.0
+For Credit: Yes
+Attendance: Mandatory
+Grade: A
+Textbook: N/A
+The course requires heavy assignments that take up 70% of ur semester, u you can score good. Plagiarism is strict. You'll learn about visualizations but focus mostly on D3, which is tedious and useless. If you're job hunting or want to learn efficiently, it's not the best choice. But if u have plenty of time to waste and score, u r good.
+Lots of homework
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+CSE578
+May 30th, 2024
+Quality
+5.0
+Difficulty
+2.0
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+This class is one of the best I've taken at ASU, great prof. Homework assignment were given for 2 weeks at a time and could earn 30% in extra credit. The 2 exams were word for word from the lecture slides with 10% of each exam coming from a paper you had to read. Group project was almost 2 months, plenty of time, make sure you find good teammates.
+EXTRA CREDIT
+Group projects
+Amazing lectures
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+CSE578
+May 3rd, 2024
+Quality
+1.0
+Difficulty
+5.0
+For Credit: Yes
+Attendance: Mandatory
+Grade: A
+Textbook: Yes
+I think there is something wrong with grader grading, TA's professors were completely inconsistent in what they said several times and kept finding reasons to deduct points.
+Lots of homework
+Graded by few things
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+CSE578
+Apr 30th, 2024
+Quality
+4.0
+Difficulty
+3.0
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+The projects are excellent, especially if you are new to JavaScript; courses use vanilla JS and D3 js library. There are enough in-class activities and extra credits to improve your chances of scoring well. I suggest doing all the extra credit tasks for the first three hw's. Also, exams are easy, and from the practice questions he provides.
+EXTRA CREDIT
+Group projects
+Lots of homework
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+CSE578
+Mar 20th, 2024
+Quality
+2.0
+Difficulty
+4.0
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: Not sure yet
+Textbook: N/A
+His lectures are thoroughly prepared and packed with materials. However, the homework assignments are poorly structured, overly lengthy, and excessively detailed. It's as if the only thing in our lives is doing his assignments. Not to say the group project takes 50% of the grade. We need time to work on that too!!!
+Group projects
+Lots of homework
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+CSE578
+Dec 1st, 2023
+Quality
+1.0
+Difficulty
+4.0
+For Credit: Yes
+Attendance: Mandatory
+Grade: A
+Textbook: N/A
+Just do not take his class if you hate front-end development. Although he covers every single little detail related to data visualization the technique in which he teaches is not even his. Gives out homework like its the only thing that you have to do in life.
+Get ready to read
+Group projects
+Lots of homework
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+CSE578
+Nov 23rd, 2023
+Quality
+5.0
+Difficulty
+1.0
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+Absolutely one of the best courses offered at ASU in the CS department. Take this course if you love coding and development, and don't mind getting your hands dirty. Totally avoid if you don't want to put in the work and just expect free/easy grades. The assignments were so much fun to do and the group project was an amazing experience as well!
+EXTRA CREDIT
+Group projects
+Gives good feedback
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+CSE578
+Nov 16th, 2023
+Quality
+5.0
+Difficulty
+3.0
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+Hands down, the best professor and course at ASU; others are not even close. Demanding but rewarding programming assignments in d3.js with ample extra credit opportunities, Many group project options to choose from, and Challenging course content, which is a mixture of viz topics and research papers that will get you excited about the field.
+Get ready to read
+EXTRA CREDIT
+Clear grading criteria
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+CSE578
+Jun 23rd, 2023
+Quality
+5.0
+Difficulty
+5.0
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+Chris is absolutely incredible. He is easily tied for the best professor that I have ever had through my 5 years at ASU. Do be warned that this was also the hardest class that I've ever taken. Trifecta and 466 are nothing in comparison to this challenge but wow it is so rewarding. If you have an option to take his class, DO IT! Don't procrastinate.
+EXTRA CREDIT
+Clear grading criteria
+Lots of homework
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+CSE578
+Mar 29th, 2023
+Quality
+4.0
+Difficulty
+3.0
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: Not sure yet
+Textbook: N/A
+The content is pretty simple. However, the extent to which you have to learn d3.js (for making visualizations) is a bit ridiculous. You might find yourself spending 20+ hours on a single homework assignment. You will likely spend more time figuring out d3.js than actually learning the theory behind data visualization. But, overall, good course.
+EXTRA CREDIT
+Group projects
+Clear grading criteria
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+CSE494
+Dec 12th, 2022
+Quality
+5.0
+Difficulty
+3.0
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+Unlimited tries on quizzes, 5-6 javascript/html hw assignments, extra credit opportunities on every assignment, 1 group project, and random points for attending class. I liked the class, however, if you have no experience in javascript/html, it can be hard. He gives plenty coding examples which definitely help as you can basically copy/paste them.
+EXTRA CREDIT
+Group projects
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+CSE494
+Dec 8th, 2022
+Quality
+5.0
+Difficulty
+4.0
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+Class primarily focus is HTML and Javascript, neither of which I had any experience in before this class. If you are already familiar with these languages, then the class will be easy. Lectures can be a little dull, but attendance is not mandatory, so look in the syllabus what will be covered and if you are interested in the concept, then go.
+Group projects
+Caring
+Online Savvy
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+CSE494
+Dec 7th, 2022
+Quality
+5.0
+Difficulty
+3.0
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: C
+Textbook: N/A
+CSE 494 is different from other classes, JS and HTML are most likely going to be foreign concepts but Dr. Bryan makes it really approachable through his coding demos. He is really knowledgeable about D3 coding and he would actually help students with certain code concepts and questions. Really nice guy too and really approachable.
+Gives good feedback
+Caring
+Respected
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+CSE494
+Nov 30th, 2022
+Quality
+4.0
+Difficulty
+2.0
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+Dr. Bryan is a pretty cool instructor he alternates between theory and coding demos and he doesn't make his class too hard. His lectures can be boring but every now and then they get a little interesting. There is one group project towards the end of the class but if you get a good group together it isn't too bad. Great if you need an easy elective
+Group projects
+Clear grading criteria
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+CSE578
+Nov 24th, 2022
+Quality
+5.0
+Difficulty
+5.0
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: Not sure yet
+Textbook: N/A
+This is a type of Professor who would show his ratemyprofessor page on his introductory slide. And would say 'these are my reviews, and let's go'. His lectures brought a human element to the code. The class was assignment heavy but worth it. This class is for all the nerds who got the code but forgot the human.
+Inspirational
+Lots of homework
+Hilarious
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+CSE494
+Aug 26th, 2022
+Quality
+1.0
+Difficulty
+1.0
+For Credit: Yes
+Attendance: Mandatory
+Grade: A+
+Textbook: N/A
+His class made me vomit in my mouth, in a negative way, because it was so boring
+Helpful
+Thumbs up
+0
+Thumbs down
+1
+
+CSE494
+Dec 22nd, 2021
+Quality
+5.0
+Difficulty
+4.0
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: No
+Prof Bryan genuinely wants you to learn viz & have fun with it. Homeworks can be long & tedious, especially if you're not familiar with JS. Start them a week early. Quizzes are open with unlimited attempts with one final group project. Fun activities like attending a session of IEEE Viz conf, designing HW for 1pt EC. Great prof!
+Lots of homework
+Clear grading criteria
+Caring
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+CSE578
+Dec 11th, 2021
+Quality
+5.0
+Difficulty
+2.0
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: Yes
+He is one of the most genuine professor , the CS department of ASU has to offer. You get to lean a lot from this course, specially the group project teaches you alot. The assignments are created with an intention to help you learn D3 from the beginners perspective to advance level
+Gives good feedback
+Respected
+Lots of homework
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+CSE578
+Jan 14th, 2021
+Quality
+1.0
+Difficulty
+1.0
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: No
+Grade: B
+Textbook: No
+AVOID this class and professor by all means. This professor is demanding literally attendance for every class with 10 or more paper reading and summarization tasks, which has definitely no meaning as most of the recommended papers are not relevant to the class, but just from his random picking from conference publications.
+Participation matters
+Test heavy
+Beware of pop quizzes
+Helpful
+Thumbs up
+2
+Thumbs down
+0
+
+CSE494
+Dec 13th, 2020
+Quality
+5.0
+Difficulty
+3.0
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: Yes
+I believe this was the first semester this class was offered as an undergraduate class. This was by far my favorite class. Assignments take maybe at the most half the time when compared to other courses you have to take such as 330, 355, and 340. Quizzes are unlimited tries and no exams. Teacher has a Slack channel and responds back very fast.
+Accessible outside class
+Group projects
+EXTRA CREDIT
+Helpful
+Thumbs up
+0
+Thumbs down
+0

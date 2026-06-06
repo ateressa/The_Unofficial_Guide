@@ -1,0 +1,344 @@
+3.5
+/ 5
+Jump To Ratings Down Arrow
+Overall Quality Based on 32 ratings
+Adil Ahmad
+Professor in the Computer Science department at Arizona State University
+66%
+Would take again
+4.2
+Level of Difficulty
+
+Rate
+Arrow Icon
+Compare
+I'm Professor Ahmad
+Rating Distribution
+Awesome 5
+
+13
+Great 4
+
+6
+Good 3
+
+4
+OK 2
+
+2
+Awful 1
+
+7
+Similar Professors
+5.00
+Hua Wei
+5.00
+Michael Tompkins
+5.00
+Robert Wasinger
+32 Student Ratings
+All courses
+Quality
+5.0
+Difficulty
+4.0
+CSE536
+Nov 2nd, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+The class is challenging and very fast pace. However, he makes his lectures really interesting and fun to participate in. The projects are important in the class but they are challenging and take a lot of time. If you plan on taking this class make sure to not take many other challenging classes as you will need a lot of time.
+Amazing lectures
+Lots of homework
+Respected
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+3.0
+CSE330
+May 13th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: B
+Textbook: N/A
+Although the course is challenging, the professor made it doable and easy for us to understand the conceptual materials. He is very generous compared to other trifecta professors, giving us extra credit projects and regrade opportunities to succeed. His teaching style implies that he cares for his students.
+Participation matters
+EXTRA CREDIT
+Caring
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+Quality
+4.0
+Difficulty
+4.0
+CSE330
+May 13th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+Prof Ahmad is passionate about his class. 330 wasn't SUPER interesting, but Ahmad made it ok. The course is super lecture-heavy. The only assignments were projects and 2 exams. Projects get harder as you go - always start early. If you prepare well, it's not bad. The professor isn't the reason the course is hard, it's just a lot of content.
+Get ready to read
+EXTRA CREDIT
+Lecture heavy
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+Quality
+3.0
+Difficulty
+4.0
+CSE330
+May 9th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: B
+Textbook: N/A
+Class was mostly project based which was nice, but clarity on those projects were incredibly ambiguous. Astounding lecturer, it's a true shame he has to talk about the most boring stuff known to man. Content is not at all engaging. Nice guy with great presentation skills. Instructions are a little messy.
+Tough grader
+Lecture heavy
+Graded by few things
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+4.0
+CSE330
+May 8th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+Great professor. Tests and assignments were difficult (start early) but he offered more extra credit than I've ever seen in any of my other college classes and the class is already generously curved as well. I recommend reviewing all the slides and using flashcards to study for the test.
+EXTRA CREDIT
+Amazing lectures
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+1.0
+Difficulty
+5.0
+CSE536
+May 8th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Grade: C
+Textbook: Yes
+This is the WORST subject given by THE WORST professor at ASU. There are a lot more better courses to take in the University. DO NOT take this course. He doesnt care about students. The course content has nothing to do with the projects. The projects are on another level and are so tough that you might just get a 0. I regret taking this course
+Tough grader
+Get ready to read
+Lots of homework
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+Quality
+1.0
+Difficulty
+5.0
+CSE330
+May 4th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Grade: Not sure yet
+Textbook: N/A
+The class is just straight up horrendous and has killed my interests in OS. Like, I'm not gonna understand how to use this random method defined in this random header file. TA's aren't helpful at all. I've attended every class, yet I don't know what to do for projects. Class is like learning physics, projects are like building an engine.
+Helpful
+Thumbs up
+0
+Thumbs down
+1
+
+Quality
+5.0
+Difficulty
+3.0
+CSE536
+Mar 17th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: B
+Textbook: Yes
+CSE 536 is hands down the most learning i have had in any course , it is though if you are not comfortable with c , but you will have ample amount of time to learn the required skills , The projects are time consuming and lectures are awesome and content heavy - do not plagiarise from github or peers , you will not be able to get away with it .
+Get ready to read
+Amazing lectures
+Lots of homework
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+3.0
+CSE536
+Mar 3rd, 2025
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: B+
+Textbook: N/A
+Heavy coding projects but very useful and practical. He's a very good lecturer, logical and in a good pace. Recommend this course.
+Participation matters
+Amazing lectures
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+1.0
+Difficulty
+5.0
+CSE330
+Feb 24th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Grade: Not sure yet
+Textbook: Yes
+Absolutely atrocious with communicating. NO INFO about the exam beforehand, everything was last minute. NOTHING about the projects, just assigned them and called it a day. Lecture material barely connected to the projects so there was SUPER HIGH learning curve. Provided no topic list to focus on for exams. Absolutely horrible, choose someone else.
+Lots of homework
+Test heavy
+Graded by few things
+Helpful
+Thumbs up
+2
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+4.0
+CSE536
+Jan 30th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+This is a heavy course, requiring 2~3 times workload of a typical course. Exams need comprehensive understanding to do well. Projects(~50%) are really helpful for solidifying concepts but are time-consuming. This is one of the most useful courses where I truly felt I learned a lot. You should take this if you are also interested in systems.
+EXTRA CREDIT
+Clear grading criteria
+Gives good feedback
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+1.0
+Difficulty
+5.0
+CSE536
+Jan 28th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Textbook: N/A
+This class is incredibly bad. It doesn't teach anything useful and is filled with random jokes that make no sense. Many students hated it, and I wish I had never taken it. The classes are taught at a grade 5 level, while the exams are at a PhD level. And don't even get me started on the assignments. Not worth your effort and time, grades will drop.
+Tough grader
+Lots of homework
+Test heavy
+Helpful
+Thumbs up
+0
+Thumbs down
+2
+
+Quality
+5.0
+Difficulty
+4.0
+CSE536
+Jan 15th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: B+
+Textbook: Yes
+Amazing professor.
+Amazing lectures
+Hilarious
+Lecture heavy
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+4.0
+Difficulty
+4.0
+CSE330
+Jun 19th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: B
+Textbook: N/A
+In class lectures are good you'll learn a ton if you pay attention. 2 Tests both hard he let us use a cheat sheet on the final. There are 4 group projects, These make up a ton of your grade around 60%. Go to Office hours the TA's are really helpful. The projects are time consuming so start early at least a week before they are assigned.
+Participation matters
+EXTRA CREDIT
+Group projects
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+4.0
+Difficulty
+4.0
+CSE330
+May 9th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+He is new to undergrad teaching, so I would expect the following problems to improve: projects are vague and contained a few errors; grading scheme was too heavy on the projects; exams didn't cover all content well. Start the projects and studying early, as these will make or break your grade. Ahmad is an amazing lecturer, and I learned a ton.
+Group projects
+Amazing lectures
+Graded by few things
+Helpful
+Thumbs up
+0
+Thumbs down
+0
