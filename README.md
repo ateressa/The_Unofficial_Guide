@@ -391,9 +391,6 @@ spec implied.
 
 ## AI Usage
 
-> *(Drafted from the repo's design notes and commit history — verify/adjust before
-> submitting.)*
-
 **Instance 1 — Embedding strategy: directed "embed clean prose only," then
 overrode it.** I directed the AI to write the chunker so that only the free-form
 review/comment text is embedded and all structured fields go to metadata (to keep
