@@ -56,9 +56,23 @@ def chat(message, history):
 # Gradio UI
 # ---------------------------------------------------------------------------
 
+_CSS = """
+.guide-sources { background:#f5f3ff !important; border:1px solid #ddd6fe;
+    border-radius:10px; padding:1rem; margin-top:0.5rem; }
+.guide-sources .guide-sources-title { font-size:0.8rem; font-weight:700;
+    color:#4c1d95 !important; margin:0 0 0.5rem; letter-spacing:0.05em; }
+.guide-sources ul { font-size:0.85rem; font-weight:600; list-style:none;
+    padding:0; margin:0; line-height:1.8; }
+.guide-sources ul li { color:#15803d !important; }
+.guide-sources hr { border:none; border-top:1px solid #ddd6fe; margin:0.75rem 0; }
+.guide-sources .guide-sources-note { font-size:0.75rem; color:#7c3aed !important;
+    margin:0; line-height:1.5; }
+"""
+
 with gr.Blocks(
     theme=gr.themes.Soft(primary_hue="indigo"),
     title="The Unofficial Guide",
+    css=_CSS,
 ) as demo:
 
     gr.HTML("""
@@ -105,20 +119,15 @@ with gr.Blocks(
 
         with gr.Column(scale=1, min_width=180):
             gr.HTML("""
-                <div style="background:#f5f3ff; border:1px solid #ddd6fe;
-                            border-radius:10px; padding:1rem; margin-top:0.5rem;">
-                    <p style="font-size:0.8rem; font-weight:700; color:#4c1d95;
-                               margin:0 0 0.5rem; letter-spacing:0.05em;">
-                        📚 SOURCES
-                    </p>
-                    <ul style="font-size:0.85rem; color:#5b21b6; list-style:none;
-                                padding:0; margin:0; line-height:1.8;">
+                <div class="guide-sources">
+                    <p class="guide-sources-title">📚 SOURCES</p>
+                    <ul>
                         <li>💬 r/ASU threads</li>
                         <li>⭐ Rate My Professors</li>
                         <li>📄 Official syllabi</li>
                     </ul>
-                    <hr style="border:none; border-top:1px solid #ddd6fe; margin:0.75rem 0;">
-                    <p style="font-size:0.75rem; color:#7c3aed; margin:0; line-height:1.5;">
+                    <hr>
+                    <p class="guide-sources-note">
                         Answers come only from collected student reviews and syllabi.
                         These are student opinions — if the sources don't cover it,
                         the Guide will say so.

@@ -113,7 +113,7 @@ def _source_label(m):
             label += f" — {m['course']}"
         extras = []
         if m.get("score") not in ("", None):
-            extras.append(f"score {m['score']}")
+            extras.append(f"👍 {m['score']}")
         if m.get("date"):
             extras.append(str(m["date"]))
         return f"{label} ({', '.join(extras)})" if extras else label
@@ -152,4 +152,20 @@ def generate_response(query, retrieved_chunks, history=None):
         temperature=0.2,
         messages=messages,
     )
-    return response.choices[0].message.content
+    answer = response.choices[0].message.content
+    return answer + _sources_footer(retrieved_chunks)
+
+
+def _sources_footer(chunks):
+    """A small, deduplicated 'Sources' list appended under the answer so the
+    user can see exactly which reviews/syllabi the answer drew from."""
+    seen, labels = set(), []
+    for c in chunks:
+        label = _source_label(c["metadata"])
+        if label not in seen:
+            seen.add(label)
+            labels.append(label)
+    if not labels:
+        return ""
+    items = "\n".join(f"- {label}" for label in labels)
+    return f"\n\n---\n**Sources**\n{items}"
